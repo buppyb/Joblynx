@@ -1,0 +1,69 @@
+/* src/UploadPage.css */
+.upload-page {
+  text-align: center;
+  padding: 20px;
+  background-color: #93BBAA;
+  Background-image: url("../public/background2.png");
+  Background-size: cover;
+  color: #454A48;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-page h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.upload-page p {
+  margin: 10px 0;
+}
+
+.career-level {
+  font-weight: bold;
+}
+
+.career-level a {
+  color: #4da6ff;
+  text-decoration: none;
+}
+
+.upload-container {
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #93BBAA;
+  background-image: url("../public/background1.png");
+  width: 80%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.upload-container input[type="file"] {
+  display: none;
+}
+
+.upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.upload-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.privacy-note {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.privacy-note p {
+  margin: 0;
+}
